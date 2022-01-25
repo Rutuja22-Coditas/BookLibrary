@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="trial" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="236"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="450" height="236"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XLE-g2-qyM">
+                        <rect key="frame" x="7" y="43" width="128" height="163"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="au9-Xb-ORF">
+                        <rect key="frame" x="150" y="52" width="290" height="72"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOU-H7-DJv">
+                                <rect key="frame" x="0.0" y="0.0" width="290" height="31.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0x-wP-1tF">
+                                <rect key="frame" x="0.0" y="51.5" width="290" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toL-YT-rjY">
+                        <rect key="frame" x="408" y="7" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="Xj2-6Q-jIo"/>
+                            <constraint firstAttribute="width" constant="32" id="vfb-We-qXG"/>
+                        </constraints>
+                        <state key="selected" image="square"/>
+                        <connections>
+                            <action selector="checkBoxButtnClk:" destination="gTV-IL-0wX" eventType="touchUpInside" id="oOb-5m-17M"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rx3-sO-dFJ">
+                        <rect key="frame" x="395" y="188" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="9ZG-Eb-iBk"/>
+                            <constraint firstAttribute="height" constant="35" id="VqA-7b-0vM"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="XLE-g2-qyM" secondAttribute="bottom" constant="30" id="3KO-Ka-87r"/>
+                <constraint firstAttribute="trailing" secondItem="XLE-g2-qyM" secondAttribute="trailing" constant="315" id="5v7-gr-VpD"/>
+                <constraint firstItem="XLE-g2-qyM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="43" id="9CO-0n-xXs"/>
+                <constraint firstItem="au9-Xb-ORF" firstAttribute="leading" secondItem="XLE-g2-qyM" secondAttribute="trailing" constant="15" id="HKv-7Y-M4F"/>
+                <constraint firstItem="au9-Xb-ORF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="52" id="HXk-Ce-l2d"/>
+                <constraint firstAttribute="trailing" secondItem="rx3-sO-dFJ" secondAttribute="trailing" constant="20" id="czK-xU-tHu"/>
+                <constraint firstAttribute="bottom" secondItem="rx3-sO-dFJ" secondAttribute="bottom" constant="13" id="jvu-B8-fOr"/>
+                <constraint firstItem="XLE-g2-qyM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7" id="mQp-08-6aV"/>
+                <constraint firstItem="toL-YT-rjY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="ouz-66-pmO"/>
+                <constraint firstAttribute="trailing" secondItem="toL-YT-rjY" secondAttribute="trailing" constant="10" id="sdQ-ct-0ZU"/>
+                <constraint firstAttribute="trailing" secondItem="au9-Xb-ORF" secondAttribute="trailing" constant="10" id="thW-tv-bQt"/>
+            </constraints>
+            <size key="customSize" width="450" height="236"/>
+            <connections>
+                <outlet property="checkBox" destination="toL-YT-rjY" id="WJm-2i-gqL"/>
+                <outlet property="checkmarkImg" destination="rx3-sO-dFJ" id="tnN-L6-kFF"/>
+                <outlet property="imageView" destination="XLE-g2-qyM" id="rI7-IH-hG4"/>
+                <outlet property="label1" destination="JOU-H7-DJv" id="eMA-GP-0xn"/>
+                <outlet property="label2" destination="a0x-wP-1tF" id="Ckf-bH-hEe"/>
+            </connections>
+            <point key="canvasLocation" x="461" y="68"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="square" width="128" height="128"/>
+    </resources>
+</document>

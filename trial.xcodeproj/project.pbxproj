@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E43ACA0278E95D900603A5A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43AC9E278E95D900603A5A /* CollectionViewCell.swift */; };
+		7E43ACA1278E95D900603A5A /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E43AC9F278E95D900603A5A /* CollectionViewCell.xib */; };
+		7E43ACA4278E976600603A5A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43ACA3278E976600603A5A /* TableViewCell.swift */; };
+		7E43ACA7278E97D400603A5A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43ACA6278E97D400603A5A /* Data.swift */; };
+		7E43ACAA278EAF9200603A5A /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43ACA9278EAF9200603A5A /* CustomHeaderView.swift */; };
+		7E43ACAD278EAF9C00603A5A /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E43ACAC278EAF9C00603A5A /* CustomHeaderView.xib */; };
+		7E43ACB0278EAFBC00603A5A /* CustomFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E43ACAF278EAFBC00603A5A /* CustomFooterView.swift */; };
+		7E43ACB3278EAFC500603A5A /* CustomFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E43ACB2278EAFC500603A5A /* CustomFooterView.xib */; };
 		7E4414DB270AD53A00AF0404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4414DA270AD53A00AF0404 /* AppDelegate.swift */; };
 		7E4414DD270AD53A00AF0404 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4414DC270AD53A00AF0404 /* SceneDelegate.swift */; };
 		7E4414DF270AD53A00AF0404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4414DE270AD53A00AF0404 /* ViewController.swift */; };
@@ -17,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E43AC9E278E95D900603A5A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7E43AC9F278E95D900603A5A /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		7E43ACA3278E976600603A5A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7E43ACA6278E97D400603A5A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7E43ACA9278EAF9200603A5A /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		7E43ACAC278EAF9C00603A5A /* CustomHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
+		7E43ACAF278EAFBC00603A5A /* CustomFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFooterView.swift; sourceTree = "<group>"; };
+		7E43ACB2278EAFC500603A5A /* CustomFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomFooterView.xib; sourceTree = "<group>"; };
 		7E4414D7270AD53A00AF0404 /* trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4414DA270AD53A00AF0404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E4414DC270AD53A00AF0404 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +82,14 @@
 				7E4414E8270AD53C00AF0404 /* LaunchScreen.storyboard */,
 				7E4414EB270AD53C00AF0404 /* Info.plist */,
 				7E4414E3270AD53A00AF0404 /* trial.xcdatamodeld */,
+				7E43ACA6278E97D400603A5A /* Data.swift */,
+				7E43ACA3278E976600603A5A /* TableViewCell.swift */,
+				7E43AC9E278E95D900603A5A /* CollectionViewCell.swift */,
+				7E43AC9F278E95D900603A5A /* CollectionViewCell.xib */,
+				7E43ACA9278EAF9200603A5A /* CustomHeaderView.swift */,
+				7E43ACAC278EAF9C00603A5A /* CustomHeaderView.xib */,
+				7E43ACAF278EAFBC00603A5A /* CustomFooterView.swift */,
+				7E43ACB2278EAFC500603A5A /* CustomFooterView.xib */,
 			);
 			path = trial;
 			sourceTree = "<group>";
@@ -97,7 +121,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = Coditas;
 				TargetAttributes = {
 					7E4414D6270AD53A00AF0404 = {
@@ -128,8 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E43ACAD278EAF9C00603A5A /* CustomHeaderView.xib in Resources */,
 				7E4414EA270AD53C00AF0404 /* LaunchScreen.storyboard in Resources */,
 				7E4414E7270AD53C00AF0404 /* Assets.xcassets in Resources */,
+				7E43ACA1278E95D900603A5A /* CollectionViewCell.xib in Resources */,
+				7E43ACB3278EAFC500603A5A /* CustomFooterView.xib in Resources */,
 				7E4414E2270AD53A00AF0404 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E43ACAA278EAF9200603A5A /* CustomHeaderView.swift in Sources */,
+				7E43ACA7278E97D400603A5A /* Data.swift in Sources */,
+				7E43ACA0278E95D900603A5A /* CollectionViewCell.swift in Sources */,
 				7E4414DF270AD53A00AF0404 /* ViewController.swift in Sources */,
 				7E4414DB270AD53A00AF0404 /* AppDelegate.swift in Sources */,
+				7E43ACA4278E976600603A5A /* TableViewCell.swift in Sources */,
+				7E43ACB0278EAFBC00603A5A /* CustomFooterView.swift in Sources */,
 				7E4414E5270AD53A00AF0404 /* trial.xcdatamodeld in Sources */,
 				7E4414DD270AD53A00AF0404 /* SceneDelegate.swift in Sources */,
 			);
@@ -196,6 +228,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,6 +289,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
